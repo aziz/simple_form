@@ -55,11 +55,13 @@ SimpleForm was designed to be customized as you need to. Basically it's a stack 
 
 To start using SimpleForm you just have to use the helper it provides:
 
+'''ruby
   <%= simple_form_for @user do |f| %>
     <%= f.input :username %>
     <%= f.input :password %>
     <%= f.button :submit %>
   <% end %>
+'''ruby
 
 This will generate an entire form with labels for user name and password as well, and render errors by default when you render the form with invalid data (after submitting for example).
 

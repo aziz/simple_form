@@ -55,7 +55,7 @@ SimpleForm was designed to be customized as you need to. Basically it's a stack 
 
 To start using SimpleForm you just have to use the helper it provides:
 
-```ruby
+``` ruby
   <%= simple_form_for @user do |f| %>
     <%= f.input :username %>
     <%= f.input :password %>
